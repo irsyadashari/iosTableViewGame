@@ -1,0 +1,6 @@
+framework module Pods_FindNewGame {
+  umbrella header "Pods-FindNewGame-umbrella.h"
+
+  export *
+  module * { export * }
+}

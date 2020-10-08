@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BFA3267CA0CF7535A0E773F /* Pods_FindNewGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22303FEA91635A3CC5B0FAED /* Pods_FindNewGame.framework */; };
+		BFCB9BC7252F4AB600E8F300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB9BC6252F4AB600E8F300 /* AppDelegate.swift */; };
+		BFCB9BC9252F4AB600E8F300 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB9BC8252F4AB600E8F300 /* SceneDelegate.swift */; };
+		BFCB9BCB252F4AB600E8F300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB9BCA252F4AB600E8F300 /* ViewController.swift */; };
+		BFCB9BCE252F4AB600E8F300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB9BCC252F4AB600E8F300 /* Main.storyboard */; };
+		BFCB9BD0252F4AB900E8F300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCB9BCF252F4AB900E8F300 /* Assets.xcassets */; };
+		BFCB9BD3252F4AB900E8F300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB9BD1252F4AB900E8F300 /* LaunchScreen.storyboard */; };
+		BFCB9BDD252F4D0400E8F300 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB9BDC252F4D0400E8F300 /* GameData.swift */; };
+		BFCB9BE2252F4E0600E8F300 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB9BE0252F4E0600E8F300 /* GameTableViewCell.swift */; };
+		BFCB9BE3252F4E0600E8F300 /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCB9BE1252F4E0600E8F300 /* GameTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22303FEA91635A3CC5B0FAED /* Pods_FindNewGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindNewGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BD6E39731EE682BF76DC04 /* Pods-FindNewGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNewGame.debug.xcconfig"; path = "Target Support Files/Pods-FindNewGame/Pods-FindNewGame.debug.xcconfig"; sourceTree = "<group>"; };
+		9F79470F6DC0A215BAADB9C1 /* Pods-FindNewGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNewGame.release.xcconfig"; path = "Target Support Files/Pods-FindNewGame/Pods-FindNewGame.release.xcconfig"; sourceTree = "<group>"; };
+		BFCB9BC3252F4AB600E8F300 /* FindNewGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindNewGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCB9BC6252F4AB600E8F300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFCB9BC8252F4AB600E8F300 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFCB9BCA252F4AB600E8F300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFCB9BCD252F4AB600E8F300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFCB9BCF252F4AB900E8F300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCB9BD2252F4AB900E8F300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFCB9BD4252F4AB900E8F300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCB9BDC252F4D0400E8F300 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		BFCB9BE0252F4E0600E8F300 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		BFCB9BE1252F4E0600E8F300 /* GameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFCB9BC0252F4AB600E8F300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFA3267CA0CF7535A0E773F /* Pods_FindNewGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4C0681D7D9CB17F9850CEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56BD6E39731EE682BF76DC04 /* Pods-FindNewGame.debug.xcconfig */,
+				9F79470F6DC0A215BAADB9C1 /* Pods-FindNewGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA1620CD3E098C664E3F993E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22303FEA91635A3CC5B0FAED /* Pods_FindNewGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFCB9BBA252F4AB600E8F300 = {
+			isa = PBXGroup;
+			children = (
+				BFCB9BC5252F4AB600E8F300 /* FindNewGame */,
+				BFCB9BC4252F4AB600E8F300 /* Products */,
+				0F4C0681D7D9CB17F9850CEA /* Pods */,
+				AA1620CD3E098C664E3F993E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCB9BC4252F4AB600E8F300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB9BC3252F4AB600E8F300 /* FindNewGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCB9BC5252F4AB600E8F300 /* FindNewGame */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB9BDF252F4DE500E8F300 /* Game Cell */,
+				BFCB9BC6252F4AB600E8F300 /* AppDelegate.swift */,
+				BFCB9BC8252F4AB600E8F300 /* SceneDelegate.swift */,
+				BFCB9BCA252F4AB600E8F300 /* ViewController.swift */,
+				BFCB9BDC252F4D0400E8F300 /* GameData.swift */,
+				BFCB9BCC252F4AB600E8F300 /* Main.storyboard */,
+				BFCB9BCF252F4AB900E8F300 /* Assets.xcassets */,
+				BFCB9BD1252F4AB900E8F300 /* LaunchScreen.storyboard */,
+				BFCB9BD4252F4AB900E8F300 /* Info.plist */,
+			);
+			path = FindNewGame;
+			sourceTree = "<group>";
+		};
+		BFCB9BDF252F4DE500E8F300 /* Game Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB9BE0252F4E0600E8F300 /* GameTableViewCell.swift */,
+				BFCB9BE1252F4E0600E8F300 /* GameTableViewCell.xib */,
+			);
+			path = "Game Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFCB9BC2252F4AB600E8F300 /* FindNewGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCB9BD7252F4AB900E8F300 /* Build configuration list for PBXNativeTarget "FindNewGame" */;
+			buildPhases = (
+				89AD5F02D5169C28DCE4A1A5 /* [CP] Check Pods Manifest.lock */,
+				BFCB9BBF252F4AB600E8F300 /* Sources */,
+				BFCB9BC0252F4AB600E8F300 /* Frameworks */,
+				BFCB9BC1252F4AB600E8F300 /* Resources */,
+				508FCFCFBE6293A402DA67A4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindNewGame;
+			productName = FindNewGame;
+			productReference = BFCB9BC3252F4AB600E8F300 /* FindNewGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCB9BBB252F4AB600E8F300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BFCB9BC2252F4AB600E8F300 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = BFCB9BBE252F4AB600E8F300 /* Build configuration list for PBXProject "FindNewGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFCB9BBA252F4AB600E8F300;
+			productRefGroup = BFCB9BC4252F4AB600E8F300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCB9BC2252F4AB600E8F300 /* FindNewGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFCB9BC1252F4AB600E8F300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCB9BD3252F4AB900E8F300 /* LaunchScreen.storyboard in Resources */,
+				BFCB9BD0252F4AB900E8F300 /* Assets.xcassets in Resources */,
+				BFCB9BCE252F4AB600E8F300 /* Main.storyboard in Resources */,
+				BFCB9BE3252F4E0600E8F300 /* GameTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		508FCFCFBE6293A402DA67A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindNewGame/Pods-FindNewGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindNewGame/Pods-FindNewGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindNewGame/Pods-FindNewGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89AD5F02D5169C28DCE4A1A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindNewGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFCB9BBF252F4AB600E8F300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCB9BE2252F4E0600E8F300 /* GameTableViewCell.swift in Sources */,
+				BFCB9BCB252F4AB600E8F300 /* ViewController.swift in Sources */,
+				BFCB9BDD252F4D0400E8F300 /* GameData.swift in Sources */,
+				BFCB9BC7252F4AB600E8F300 /* AppDelegate.swift in Sources */,
+				BFCB9BC9252F4AB600E8F300 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFCB9BCC252F4AB600E8F300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCB9BCD252F4AB600E8F300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFCB9BD1252F4AB900E8F300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCB9BD2252F4AB900E8F300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFCB9BD5252F4AB900E8F300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFCB9BD6252F4AB900E8F300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCB9BD8252F4AB900E8F300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56BD6E39731EE682BF76DC04 /* Pods-FindNewGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAF4VGV8W6;
+				INFOPLIST_FILE = FindNewGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irsyadashari.www.FindNewGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BFCB9BD9252F4AB900E8F300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F79470F6DC0A215BAADB9C1 /* Pods-FindNewGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAF4VGV8W6;
+				INFOPLIST_FILE = FindNewGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irsyadashari.www.FindNewGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFCB9BBE252F4AB600E8F300 /* Build configuration list for PBXProject "FindNewGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCB9BD5252F4AB900E8F300 /* Debug */,
+				BFCB9BD6252F4AB900E8F300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCB9BD7252F4AB900E8F300 /* Build configuration list for PBXNativeTarget "FindNewGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCB9BD8252F4AB900E8F300 /* Debug */,
+				BFCB9BD9252F4AB900E8F300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCB9BBB252F4AB600E8F300 /* Project object */;
+}
